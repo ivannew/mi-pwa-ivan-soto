@@ -1,0 +1,14 @@
+{
+  "name": "mi-api",
+  "version": "1.0.0",
+  "description": "API original para PWA de Ivan Soto",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
