@@ -5,7 +5,10 @@ const app = express();
 
 // Habilitar CORS para tu front
 app.use(cors({
-  origin: "https://mi-pwafront.vercel.app" // Cambia por tu dominio de front
+ origin: [
+    "https://mi-pwafront.vercel.app",
+    "https://mi-pwafront-ivan-soto-4kvr.vercel.app"
+  ]
 }));
 
 app.use(express.json());
